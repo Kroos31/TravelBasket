@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="c.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/latest/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;1,100&family=Secular+One&display=swap" rel="stylesheet">
+
+
+    <title>c</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="closeSidebar()">
+          <a href=""
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+        </li>
+
+        <li class=""><a href="#">Contact </a></li>
+      </ul>
+      <ul>
+        <li><a href="index.html">TravelBasket</a></li>
+
+        
+        <li class="hideOnMobile dropdown">
+          <a href="#"
+            >Contact
+            <div class="dropdown-content">
+              <p>+91 8448102891</p>
+              <p>+91 9891322112</p>
+              
+              <p>sales.travelbasket@gmaill.com</p>
+              <p>Travel Basket</p>
+            </div>
+          </a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="gallery">
+
+        <div class="first-img">
+       
+            <img  src="/new/assets/d2.jpg" alt="">
+            <h1 class=".first-img-text"> Explore with us</h1>
+        
+        </div> 
+        
+            <div class="s1">
+                <img class="s1-img" src="/new/explore/pexels-abdul-kayum-19469036.jpg" alt="">
+                <h1 style="padding-top: 10px; text-align:center">Meghalya</h1>
+               
+            </div>
+            <div class="s2">
+             
+              <img src="/new/explore/npic/pexels-aleksandar-pasaric-2115367.jpg" alt="">
+              <h1 style="padding-top: 10px; text-align:center">Dubai</h1>
+
+            </div>
+       <div class="s3">
+        <img src="/new/explore/npic/pexels-asad-photo-maldives-1483053.jpg" alt="">
+        <h1 style="padding-top: 10px; text-align:center">Maldives</h1>
+       </div>
+       <div class="s4">
+        <img src="/new/explore/pexels-flashing-moment-797824.jpg" alt="">
+        <h1 style="padding-top: 10px; text-align:center">Rajasthan</h1>
+       </div>
+
+       <div class="s5">
+        <img src="/new/explore/pexels-godson-bright-962464.jpg" alt="">
+        <h1 style="padding-top: 10px; text-align:center">Kerala</h1>
+       </div>
+       <div class="s6">
+        <img src="/new/explore/npic/pexels-cottonbro-studio-4430322.jpg" alt="">
+          <h1 style="padding-top: 10px; text-align:center">Goa</h1>
+       </div>
+
+
+
+       <div class="s7">
+        <img src="/new/explore/npic/pexels-pixabay-208444.jpg" alt="">
+         <h1 style="padding-top: 10px; text-align:center">Thailand</h1>
+
+       </div>
+       <div class="s8">
+        <img src="/new/explore/pexels-muntazir-hassan-11024977.jpg" alt="">
+        <h1 style="padding-top: 10px; text-align:center">Kashmir</h1>
+
+
+       </div>
+       <div class="s9">
+        <img src="/new/explore/npic/pexels-pixabay-326787.jpg" alt="">
+        <h1 style="padding-top: 10px; text-align:center">Singapore</h1>
+       </div>
+       <div class="s10">
+        <img src="/new/explore/npic/pexels-sanket-barik-7846473.jpg" alt="">
+        <h1 style="padding-top: 10px; text-align:center">Himachal</h1>
+       </div>
+        
+       
+      <div class="s13">
+        <img src="/new/explore/npic/badrinath.jpg" alt="">
+        <h1 style="padding-top: 10px; text-align:center;">Badrinath</h1>
+      </div>
+      <div class="footer">
+        <h3>
+          ©travelbasket.in  2024
+      </h3>
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function closeSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+      function goToOtherPage() {
+        window.location.href = "contact.html";
+      }
+    </script>
+    
+  </body>
+
+ 
+</html>
